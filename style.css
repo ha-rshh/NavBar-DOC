@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100vw;
+    background-color: white;
+}
+.header{
+    display: flex;
+    min-width: 80%;
+    margin: 0 auto;
+    min-width: max-content;
+    padding: 0.2rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+div.logo{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+div.logo:hover{
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+div.header-main{
+    /* width: 50\. %; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 20px;
+}
+div.header-1{
+    margin: 0 0.2rem;
+    display: flex;
+    align-items:baseline;
+    gap: 1rem;
+}
+.file--name{
+    font-size: 1.6rem;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 3px;
+}
+.box{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+div.header-2{
+    margin: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+div.header-2 >span{
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    color: gray;
+}
+p.last-edit{
+    margin: 0 1.5rem;
+    color: darkgray;
+}
+@media screen and (max-width:1100px) {
+    p.last-edit{
+        display: none;
+    }
+}
+div.header-2 >span:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+button > span{
+    cursor: pointer;
+}
+div.user--settings{
+    margin: 0.2rem;
+    width: 38%;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.comment{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 45px;
+}
+
+div.comment:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+button.share-btn{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #0086F9;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+button.share-btn:hover{
+    background-color: #0f8dfb;
+}
+
+span.share-text{
+    font-size: 0.93rem;
+    margin: 3px;
+}
+a >  img.profile{
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+a >  img.profile:hover{
+    filter: brightness(0.95);
+}
+
+/* main section starts here */
+
+main{
+    background-color: #F8F9FA;
+    height: 500vh;
+}
+main > .section--1{
+    margin: 0rem 1rem 0rem 14rem;
+    /* background-color: rgb(180, 105, 105); */
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+}
+.section--1 > .page-1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 100vh;
+    padding:  5rem 4rem;
+    text-align: justify;
+    letter-spacing: 1px;
+
+}
